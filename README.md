@@ -1,4 +1,4 @@
-# Create your map jeojson html5
+# Create your map geojson html5
  - How to use leaflet js to create map
  - Map of world countries vectors created from GeoJSON objects
  
