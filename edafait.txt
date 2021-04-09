@@ -1,0 +1,330 @@
+   //countries  style
+  style: function (feature) {
+
+
+
+                switch (feature.properties.ADMIN) {
+                
+                    case 'Aruba': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+                    case 'Afghanistan': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+                    case 'Angola': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+                    case 'Anguilla': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+                    case 'Albania': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+                    case 'Aland': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+                    case 'Andorra': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+                    case 'United Arab Emirates': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+                    case 'Argentina': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+                    case 'Armenia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+                    case 'American Samoa': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+                    case 'Antarctica': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+                    case 'Ashmore and Cartier Islands': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+                    case 'French Southern and Antarctic Lands': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+                    case 'Antigua and Barbuda': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+                    case 'Australia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+                    case 'Austria': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+                    case 'Azerbaijan': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+                    case 'Burundi': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+                    case 'Belgium': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+                    case 'Benin': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };   
+
+
+case 'Burkina Faso': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Bangladesh': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Bulgaria': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Bahrain': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'The Bahamas': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Bosnia and Herzegovina': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Bajo Nuevo Bank (Petrel Is)': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Saint Barthelemy': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Belarus': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Belize': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Bermuda': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Bolivia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Brazil': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Barbados': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Brunei': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Bhutan': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Botswana': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Central African Republic': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Canada': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Switzerland': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Chile': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'China': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Ivory Coast': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Clipperton Island': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };  
+case 'Cameroon': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };       
+case 'Cyprus No Mans Area': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 }; 
+case 'Democratic Republic of the Congo': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };     
+case 'Republic of Congo': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };    
+case 'Cook Islands': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Colombia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };         
+case 'Comoros': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };    
+case 'Cape Verde': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 }; 
+case 'Costa Rica': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };      
+case 'Coral Sea Islands': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Cuba': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Curaçao': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Cayman Islands': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Northern Cyprus': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Cyprus': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };    
+case 'Czech Republic': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Germany': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Djibouti': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Dominica': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Denmark': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Dominican Republic': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Algeria': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Ecuador': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Egypt': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Eritrea': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Dhekelia Sovereign Base Area': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Spain': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Estonia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Ethiopia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Finland': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Fiji': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Falkland Islands': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+                    case 'France': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Faroe Islands': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };     
+case 'Federated States of Micronesia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };       
+case 'Gabon': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'United Kingdom': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 }; 
+case 'Georgia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Guernsey': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Ghana': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Gibraltar': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Guinea': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Gambia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Guinea Bissau': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Equatorial Guinea': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Greece': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Grenada': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Greenland': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Guatemala': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Guam': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Guyana': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Hong Kong SAR': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Heard Island and McDonald Islands': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Honduras': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Croatia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Haiti': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Hungary': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Indonesia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Isle of Man': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'India': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Indian Ocean Territories': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'British Indian Ocean Territory': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Ireland': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Iran': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Iraq': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Iceland': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Israel': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Italy': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Jamaica': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Jersey': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Jordan': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Japan': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Baykonur Cosmodrome': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Siachen Glacier': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Kazakhstan': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Kenya': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Kyrgyzstan': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Cambodia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Kiribati': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Saint Kitts and Nevis': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };    
+case 'South Korea': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };   
+case 'Kosovo': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Kuwait': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };     
+case 'Laos': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Lebanon': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Liberia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Libya': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Saint Lucia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Liechtenstein': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Sri Lanka': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Lesotho': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Lithuania': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Luxembourg': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Latvia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Macao SAR': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Saint Martin': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Morocco': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Monaco': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Moldova': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Madagascar': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Maldives': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Mexico': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Marshall Islands': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Macedonia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Mali': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Malta': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Myanmar': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Montenegro': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Mongolia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Northern Mariana Islands': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Mozambique': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Mauritania': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Montserrat': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Mauritius': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Malawi': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Malaysia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Namibia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'New Caledonia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Niger': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Norfolk Island': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Nigeria': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Nicaragua': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Niue': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Netherlands': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Norway': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Nepal': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Nauru': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'New Zealand': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Oman': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Pakistan': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Panama': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Pitcairn Islands': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Peru': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Spratly Islands': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Philippines': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Palau': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Papua New Guinea': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Poland': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Puerto Rico': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'North Korea': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Portugal': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Paraguay': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 }; 
+case 'Palestine': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };      
+case 'French Polynesia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };  
+case 'Qatar': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Romania': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 }; 
+case 'Russia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Rwanda': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Western Sahara': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };      
+case 'Saudi Arabia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Scarborough Reef': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Sudan': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 }; 
+case 'South Sudan': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Senegal': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Serranilla Bank': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Singapore': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'South Georgia and South Sandwich Islands': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };    
+case 'Saint Helena': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };       
+case 'Solomon Islands': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Sierra Leone': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'El Salvador': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'San Marino': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Somaliland': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Somalia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Saint Pierre and Miquelon': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };     
+case 'Republic of Serbia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };  
+case 'Sao Tome and Principe': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };  
+case 'Suriname': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Slovakia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Slovenia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Sweden': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Swaziland': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };   
+case 'Sint Maarten': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };     
+case 'Seychelles': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };     
+case 'Syria': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };  
+case 'Turks and Caicos Islands': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Chad': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };   
+case 'Togo': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Thailand': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };   
+case 'Tajikistan': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Turkmenistan': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'East Timor': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Tonga': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Trinidad and Tobago': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Tunisia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Turkey': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };    
+case 'Tuvalu': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };         
+case 'Taiwan': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };     
+case 'United Republic of Tanzania': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };          
+case 'Uganda': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };         
+case 'Ukraine': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };      
+case 'United States Minor Outlying Islands': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 }; 
+case 'Uruguay': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };    
+case 'United States of America': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'US Naval Base Guantanamo Bay': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };    
+case 'Uzbekistan': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };  
+case 'Vatican': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Saint Vincent and the Grenadines': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };       
+case 'Venezuela': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };         
+case 'British Virgin Islands': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };         
+case 'United States Virgin Islands': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };       
+case 'Vietnam': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 }; 
+case 'Vanuatu': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 }; 
+case 'Wallis and Futuna': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };       
+case 'Akrotiri Sovereign Base Area': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };    
+case 'Samoa': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };     
+case 'Yemen': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };       
+case 'South Africa': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };
+case 'Zambia': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };        
+case 'Zimbabwe': return { color: "#000000", fillColor: "#ffffff", fillOpacity: 1 };    
+
+                }
+            }
+
+// markers label
+
+        var icon_19s = L.Icon.Label.extend({
+            options: {
+                iconUrl: 'markers/19.png',
+                shadowUrl: null,
+                iconSize: new L.Point(0, 0),
+                iconAnchor: new L.Point(0, 1),
+                labelAnchor: new L.Point(0, -3),
+                wrapperAnchor: new L.Point(12, 13),
+                labelClassName: 'my-labelvv'
+            }
+        });
+
+        L.marker([21.452, 38.784], {
+            icon: new icon_19s({ labelText: " Red Sea" }), rotationAngle: 60
+        }).addTo(map);
+
+        L.marker([33.5, 20.784], {
+            icon: new icon_19s({ labelText: " Mediterranean Sea" }),
+        }).addTo(map);
+
+
+//popup click marker and image icons
+        var popup = L.popup();
+        function click(e) {
+
+
+            popup
+                .setLatLng(e.latlng)
+                .setContent(this.options.description)
+                .openOn(map);
+            map.setView(e.latlng, 10);
+        }
+
+        
+        var icons = L.Icon.Label.extend({
+            options: {
+                iconUrl: 'img/red.png',
+                shadowUrl: null,
+                iconSize: new L.Point(15, 30),
+                iconAnchor: new L.Point(0, 1),
+                labelAnchor: new L.Point(-43, 15),
+                wrapperAnchor: new L.Point(10, 15),
+                labelClassName: 'my-label'
+            }
+        });
+
+        var icon = L.Icon.Label.extend({
+            options: {
+                iconUrl: 'img/blue.png',
+                shadowUrl: null,
+                iconSize: new L.Point(15, 30),
+                iconAnchor: new L.Point(0, 1),
+                labelAnchor: new L.Point(-43, 15),
+                wrapperAnchor: new L.Point(10, 15),
+                labelClassName: 'my-label'
+            }
+        });
+
+        L.marker([31.2, 31.2], { icon: new icons({ labelText: "marker 1" }), description: "Description 1" }).addTo(map).on('click', click);
+        L.marker([31.2, 31.4], { icon: new icon({ labelText: "marker 2" }), description: "Description 2" }).addTo(map).on('click', click);
