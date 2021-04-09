@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Leaflet GeoJSON Example</title>
+    <meta charset="utf-8" />
+
+    <style type="text/css">
+   
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            
+            height: 100%;
+        }
+        .my-label {
+            background-color: #ffffff;
+         
+            border: transparent;
+            box-shadow: none;
+            font-size: 10px;
+            color: #000000;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+
+
+    <div id="map" style="width: 100%; height: 100%"></div>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link rel="stylesheet" href="css/walid.css" />
+    <script src="dist/leaflet.js"></script>
+    <script src="dist/leaflet.rotatedMarker.js"></script>
+
+    <script src="src/Icon.Label.js"></script>
+    <script src="src/Icon.Label.Default.js"></script>
+    <script src="https://edafait.com/map/edafaitworldcountriess.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-15Q4VS94NM"></script>
+    <script src="https://edafait.com/map/rivers_lake.js"></script>
+    <script src="https://edafait.com/map/lakes.js"></script>
+
+    <script>
+
+
+        var map = L.map('map', {
+            maxZoom: 12,
+            minZoom: 3,
+          
+          
+        }).setView([26.47, 30.784], 3);
+
+
+
+        var myObj, i, j, x = "";
+
+
+
+
+
+
+        L.geoJSON(edafaitcountries , {
+
+            onEachFeature: function (feature, layer) {
+                layer.on('mouseover', function () {
+                    layer.bindPopup(feature.properties.ADMIN);
+                    //   layer.openPopup();
+                    this.setStyle({
+                        'color': '#2b044d', colorOpacity: .01
+                    });
+                });
+                layer.on('mouseout', function () {
+                    this.setStyle({
+                        'color': '#000000'
+                    });
+                });
+
+
+           
+
+                layer.on('click', function () {
+                  
+                    layer.bindPopup(feature.properties.ADMIN);
+                });
+
+                //style
+            },
+
+
+       
+
+        }).addTo(map);
+
+
+
+
+            var myStyle = {
+
+
+                //"stroke": true,
+                //"fill": true,
+                "radius": 8,
+                "fillColor": "#0078A8",
+                "color": "#0078A8",
+                "weight": 1,
+                "opacity": 1,
+                "fillOpacity": 1
+            };
+
+            L.geoJSON(niles, {
+                style: myStyle
+            }).addTo(map);
+
+
+            L.geoJSON(lakes, {
+                style: myStyle
+            }).addTo(map);
+
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-15Q4VS94NM');
+       
+          //
+    </script>
+</body>
+</html>
