@@ -69,9 +69,18 @@
        function zooomd() {
                     map.setView([26.47, 30.784], 7);
                 }
- 
-# website
-   Free shortner (short url) : https://shorturl.edafait.com/
-   Augmented reality webar : https://webxr.edafait.com/
-   Blog : https://blog.edafait.com/
-   https://www.edafait.com/
+##  Web Augmented reality
+Https://Webxr.edafait.com
+
+##  Free Short URL (Shortner) 
+https://shorturl.edafait.com/
+
+##  Blog
+Https://blog.edafait.com
+
+## Good Company hosting and low price VPN 
+https://shorturl.edafait.com/?hosting 
+
+
+## YouTube Channel Wonder developer To Subscribe 
+https://shorturl.edafait.com/?Subscribe
