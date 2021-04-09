@@ -70,3 +70,8 @@
                     map.setView([26.47, 30.784], 7);
                 }
  
+# website
+   Free shortner (short url) : https://shorturl.edafait.com/
+   Augmented reality webar : https://webxr.edafait.com/
+   Blog : https://blog.edafait.com/
+   https://www.edafait.com/
