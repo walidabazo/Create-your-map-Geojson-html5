@@ -69,6 +69,11 @@
        function zooomd() {
                     map.setView([26.47, 30.784], 7);
                 }
+                
+Show Video Map
+[![Watch the video](https://img.youtube.com/vi/5NL60BIH63U/0.jpg)](https://youtu.be/5NL60BIH63U)
+https://shorturl.edafait.com/?worldmap
+
 ##  Web Augmented reality
 Https://Webxr.edafait.com
 
